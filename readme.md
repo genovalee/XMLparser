@@ -1,6 +1,6 @@
 # Parser DS12c印表回傳的XML
 
-<pre style="color:#000000;background:#ffffff;">
+```xml
 &lt;?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?&gt;
 &lt;serverQueues&gt;
 	&lt;job id="58806" queueType="past"&gt;
@@ -22,11 +22,9 @@
 		&lt;/timingInfo&gt;
 	&lt;/job&gt;
 &lt;/serverQueues&gt;
-</pre>
+```
 
 ## 解析timingInfo節點的資料
-<pre style="color:#000000;background:#ffffff;">
 queued = 2024/3/29 上午 08:45:16
 started = 2024/3/29 上午 08:45:16
 finished = 2024/3/29 上午 08:45:18
-</pre>
